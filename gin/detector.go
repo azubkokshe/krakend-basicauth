@@ -1,7 +1,6 @@
 package gin
 
 import (
-	"fmt"
 	"net/http"
 
 	"github.com/azubkokshe/krakend-basicauth"
@@ -23,8 +22,6 @@ func Register(cfg config.ServiceConfig, l logging.Logger, engine *gin.Engine) {
 		return
 	}
 
-	fmt.Println("Register conf", credConf)
-
 	d := basicauth.New(credConf)
 	engine.Use(middleware(d))
 }
@@ -42,8 +39,6 @@ func New(hf krakendgin.HandlerFactory, l logging.Logger) krakendgin.HandlerFacto
 			l.Warning("basicauth: ", err.Error())
 			return next
 		}
-
-		fmt.Println("New conf", credCfg)
 
 		d := basicauth.New(credCfg)
 

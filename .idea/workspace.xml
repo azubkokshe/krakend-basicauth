@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f40e8f0-6797-4a58-ab2b-9ef5989a4d79" name="Default Changelist" comment="First commit">
+    <list default="true" id="5f40e8f0-6797-4a58-ab2b-9ef5989a4d79" name="Default Changelist" comment="Fix bugs">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basicauth.go" beforeDir="false" afterPath="$PROJECT_DIR$/basicauth.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gin/detector.go" beforeDir="false" afterPath="$PROJECT_DIR$/gin/detector.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +75,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -85,5 +91,9 @@
       <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state x="566" y="332" key="Github.ShareDialog/0.25.1440.813@0.25.1440.813" timestamp="1611589248255" />
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1611596922305">
+      <screen x="0" y="25" width="1440" height="813" />
+    </state>
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1611596922305" />
   </component>
 </project>

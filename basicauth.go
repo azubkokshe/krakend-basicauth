@@ -2,7 +2,6 @@ package basicauth
 
 import (
 	"encoding/base64"
-	"fmt"
 	"net/http"
 	"strings"
 )
@@ -15,16 +14,11 @@ type Config struct {
 type AuthFunc func(r *http.Request) bool
 
 func New(cfg Config) AuthFunc {
-	return cfg.IsNorm
+	return cfg.Auth
 }
 
-func (d *Config) IsNorm(r *http.Request) bool {
-
-	fmt.Println("isNorm", r.Header)
-
+func (d *Config) Auth(r *http.Request) bool {
 	aHeader := r.Header.Get("Authorization")
-
-	fmt.Println("aHeader", aHeader)
 
 	if aHeader == "" || !strings.HasPrefix(aHeader, "Basic ") {
 		return false
