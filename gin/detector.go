@@ -1,6 +1,7 @@
 package gin
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/azubkokshe/krakend-basicauth"
@@ -21,6 +22,9 @@ func Register(cfg config.ServiceConfig, l logging.Logger, engine *gin.Engine) {
 		l.Warning("basicauth middleware: ", err.Error())
 		return
 	}
+
+	fmt.Println("Register conf", credConf)
+
 	d := basicauth.New(credConf)
 	engine.Use(middleware(d))
 }
@@ -39,6 +43,8 @@ func New(hf krakendgin.HandlerFactory, l logging.Logger) krakendgin.HandlerFacto
 			return next
 		}
 
+		fmt.Println("New conf", credCfg)
+
 		d := basicauth.New(credCfg)
 
 		return handler(d, next)
@@ -47,7 +53,7 @@ func New(hf krakendgin.HandlerFactory, l logging.Logger) krakendgin.HandlerFacto
 
 func middleware(f basicauth.AuthFunc) gin.HandlerFunc {
 	return func(c *gin.Context) {
-		if f(c.Request) {
+		if !f(c.Request) {
 			c.AbortWithStatus(http.StatusUnauthorized)
 			return
 		}
