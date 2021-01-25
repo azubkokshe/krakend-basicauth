@@ -1,5 +1,7 @@
 # krakend-basicauth
-This package implements basic authorization for [KrakenD-CE](https://github.com/devopsfaith/krakend-ce)
+HTTP Basic authentication middleware for the [KrakenD-CE](https://github.com/devopsfaith/krakend-ce)
+
+##### This is not intended to be used in production! It is just a initial version of a possible KrakenD component
 
 ## Install and test
 ```bash
@@ -64,4 +66,3 @@ curl --user test:123456 http://localhost:8080/supu
 
 
 ## Note
-Set "ORGID" variable in docker-compose.env file

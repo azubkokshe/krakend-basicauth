@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f40e8f0-6797-4a58-ab2b-9ef5989a4d79" name="Default Changelist" comment="Fix bugs">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basicauth.go" beforeDir="false" afterPath="$PROJECT_DIR$/basicauth.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gin/detector.go" beforeDir="false" afterPath="$PROJECT_DIR$/gin/detector.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+    <list default="true" id="5f40e8f0-6797-4a58-ab2b-9ef5989a4d79" name="Default Changelist" comment="Complete README.md">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +35,15 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1nZ9cvf7JzJeWE88obAHZyNjX1s" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -76,8 +75,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs" />
+    <MESSAGE value="Complete README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete README.md" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -91,9 +92,9 @@
       <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state x="566" y="332" key="Github.ShareDialog/0.25.1440.813@0.25.1440.813" timestamp="1611589248255" />
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1611596922305">
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1611598101916">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1611596922305" />
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.25.1440.813@0.25.1440.813" timestamp="1611598101916" />
   </component>
 </project>
