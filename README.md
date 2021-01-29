@@ -12,7 +12,7 @@ cd krakend-ce
 #Add to imports: basicauth "github.com/azubkokshe/krakend-basicauth/gin"
 #Add to NewHandlerFactory (before "return handlerFactory"): handlerFactory = basicauth.New(handlerFactory, logger)
 
-got get github.com/azubkokshe/krakend-basicauth/gin
+go get github.com/azubkokshe/krakend-basicauth/gin
 
 make build
 
